@@ -1,0 +1,23 @@
+{
+  "name": "ako-landing",
+  "version": "1.0.0",
+  "description": "AKO landing page",
+  "main": "index.html",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/akoding/ako-landing.git"
+  },
+  "author": "Pac (pakokrew@gmail.com)",
+  "license": "MIT",
+  "homepage": "https://meetako.fr",
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

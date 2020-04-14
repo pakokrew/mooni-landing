@@ -73,7 +73,9 @@ export default () => (
 
           <div className="row feature-item">
             <div className="col-lg-6 wow fadeInUp">
-              <div style={{ position: 'relative', paddingBottom: 'calc(56.25% + 44px)'}}><iframe src='https://gfycat.com/ifr/DecimalHighApatosaur' frameBorder='0' scrolling='no' width='100%' height='100%' style={{ position: 'absolute', top: 0, left:0 }} allowFullScreen /></div><p> <a href="https://gfycat.com/decimalhighapatosaur">via Gfycat</a></p>
+              <div style={{ position: 'relative', paddingBottom: 'calc(56.25% + 44px)'}}>
+                <iframe src='https://gfycat.com/ifr/DecimalHighApatosaur' frameBorder='0' scrolling='no' width='100%' height='100%' style={{ position: 'absolute', top: 0, left:0 }} allowFullScreen />
+              </div>
             </div>
             <div className="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
               <h4><b>Mooni</b> is a simple solution to cash out cryptocurrencies in fiat to a bank account, without KYC</h4>
@@ -220,7 +222,7 @@ export default () => (
               <a data-toggle="collapse" href="#faq3" className="collapsed">How much does it cost ? <i className="ion-android-remove"/></a>
               <div id="faq3" className="collapse" data-parent="#faq-list">
                 <p>
-                  We don't charge any fees. The exchange rate is fixed for 10 minutes from the time you validate your order. Just try it :)
+                  The fees we charge depend on the amount you exchange, but stays between 0.5% and 2%, plus blockchain network fees. The precise amount is displayed on the app when placing an order, try it ;)
                 </p>
               </div>
             </li>
@@ -230,15 +232,6 @@ export default () => (
               <div id="faq4" className="collapse" data-parent="#faq-list">
                 <p>
                   We are not an exchange. We are just providing a sleek user interface glueing different services together. For ETH=>Fiat exchange, we use bity.com, which is a well-established Swiss crypto gateway, with strong regulations rules. For ERC20=>ETH conversion, we use decentralized liquity provider, which are trustless and permissionless.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <a data-toggle="collapse" href="#faq5" className="collapsed">Do you store any user information ? <i className="ion-android-remove"/></a>
-              <div id="faq5" className="collapse" data-parent="#faq-list">
-                <p>
-                  We don't have any backend, databases or analytics tools. You can, optionally, store your bank account information, in a decentralized and encrypted storage that only you has access to, thanks to 3box.
                 </p>
               </div>
             </li>

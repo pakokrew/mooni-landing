@@ -30,6 +30,7 @@ export default () => (
             gtag('js', new Date());
     
             gtag('config', 'UA-68373171-8');
+            gtag('event', 'landing');
           `,
         }}
       />

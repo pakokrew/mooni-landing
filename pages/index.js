@@ -97,12 +97,12 @@ export default () => (
               <h4>Meant to be used in marketplaces</h4>
               <p>
                 Many platforms today enable to generate revenue online, remotely. Anyone can earn crypto by prodiving
-                <a href="https://ethlance.com/" target="_blank">services</a>,
-                <a href="https://shoporigin.com/" target="_blank">selling goods</a>,
-                <a href="https://www.cryptocribs.com/" target="_blank">renting</a>,
-                <a href="https://idle.finance/" target="_blank">lending</a>,
-                <a href="https://app.nuo.network/trade" target="_blank">speculating</a> or
-                <a href="https://www.pooltogether.com/" target="_blank">gambling</a>.
+                &nbsp;<a href="https://ethlance.com/" target="_blank">services</a>,
+                &nbsp;<a href="https://shoporigin.com/" target="_blank">selling goods</a>,
+                &nbsp;<a href="https://www.cryptocribs.com/" target="_blank">renting</a>,
+                &nbsp;<a href="https://idle.finance/" target="_blank">lending</a>,
+                &nbsp;<a href="https://app.nuo.network/trade" target="_blank">speculating</a> or
+                &nbsp;<a href="https://www.pooltogether.com/" target="_blank">gambling</a>.
               </p>
               <p>
                 The universe of the things we can buy with crypto is expanding, but today, it is still hard to spend a living with it. Things like homing, food, or health insurance still requires to have a bank account and fiat.
@@ -146,7 +146,7 @@ export default () => (
                 <div className="box">
                   <div className="icon" style={{ background: '#e6fdfc' }}><i className="fas fa-exchange-alt" style={{ color: '#3fcdc7' }} /></div>
                   <h4 className="title"><a href="">Pay with any token</a></h4>
-                  <p className="description">Convert BTC, ETH or any ERC20 token into fiat</p>
+                  <p className="description">Convert ETH or any ERC20 token into fiat</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
@@ -204,7 +204,7 @@ export default () => (
               <a data-toggle="collapse" className="collapsed" href="#faq1">What kind of wallet can I use ? <i className="ion-android-remove"/></a>
               <div id="faq1" className="collapse" data-parent="#faq-list">
                 <p>
-                  Most common web3-compatible wallet can be used. As now, you can use Metamask, Authereum, Portis, WalletConnect, Coinbase Wallet, Trust Wallet, Trezor, Ledger,...
+                  Most common web3-compatible wallet can be used. As now, you can use Metamask, Portis, Fortmatic, WalletConnect, Coinbase Wallet, Trust Wallet...
                 </p>
               </div>
             </li>

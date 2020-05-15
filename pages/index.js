@@ -54,7 +54,7 @@ export default () => (
             <h2>The simplest <br/>crypto <span>off ramp</span></h2>
             <div>
               <a href="https://app.mooni.tech" className="btn-info btn-get-started" target="_blank">Use it</a>
-              <a href="https://github.com/pakokrew/mooni#-Frontend-integration" className="btn-info btn-integrate" target="_blank">Integrate it</a>
+              <a href="https://doc.mooni.tech/frontend-integration" className="btn-info btn-integrate" target="_blank">Integrate it</a>
             </div>
           </div>
 
@@ -84,6 +84,9 @@ export default () => (
               </p>
               <p>
                 Mooni does not requires to sign up, neither to verify identity. Users just need a crypto wallet and a bank account. Personal information can be stored in a private and encrypted storage, so that it can be remember for a latter use. Our service is also decentralized, that is to say that we don’t have any server and no data ever reaches us.
+              </p>
+              <p>
+                Want to see how it works ? Check the <a href="https://doc.mooni.tech/walkthrough" target="_blank" rel="noopener noreferer">walkthrough</a> !
               </p>
             </div>
           </div>

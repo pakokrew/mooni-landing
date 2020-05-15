@@ -73,8 +73,10 @@ export default () => (
 
           <div className="row feature-item">
             <div className="col-lg-6 wow fadeInUp">
-              <div style={{ position: 'relative', paddingBottom: 'calc(56.25% + 44px)'}}>
-                <iframe src='https://gfycat.com/ifr/DecimalHighApatosaur' frameBorder='0' scrolling='no' width='100%' height='100%' style={{ position: 'absolute', top: 0, left:0 }} allowFullScreen />
+              <div style={{width:200}}>
+                <iframe src="https://streamable.com/e/0epyef" frameBorder="0" width="100%" height="100%"
+                        allowFullScreen
+                        style={{width:'100%',height:'100%',position:'absolute',left:0,top:0,overflow:'hidden'}}/>
               </div>
             </div>
             <div className="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
@@ -140,44 +142,44 @@ export default () => (
             <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
               <div className="box">
                 <div className="icon" style={{ background: '#fff0da' }}><i className="fas fa-user-secret" style={{ color: '#e98e06' }} /></div>
-                  <h4 className="title"><a href="">No KYC</a></h4>
-                  <p className="description">You do not need to create an account nor to verify your identity</p>
-                </div>
+                <h4 className="title"><a href="">No KYC</a></h4>
+                <p className="description">You do not need to create an account nor to verify your identity</p>
               </div>
+            </div>
 
-              <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                <div className="box">
-                  <div className="icon" style={{ background: '#e6fdfc' }}><i className="fas fa-exchange-alt" style={{ color: '#3fcdc7' }} /></div>
-                  <h4 className="title"><a href="">Pay with any token</a></h4>
-                  <p className="description">Convert ETH or any ERC20 token into fiat</p>
-                </div>
+            <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+              <div className="box">
+                <div className="icon" style={{ background: '#e6fdfc' }}><i className="fas fa-exchange-alt" style={{ color: '#3fcdc7' }} /></div>
+                <h4 className="title"><a href="">Pay with any token</a></h4>
+                <p className="description">Convert ETH or any ERC20 token into fiat</p>
               </div>
-              <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                <div className="box">
-                  <div className="icon" style={{ background: '#eafde7' }}><i className="fas fa-user-shield" style={{ color:'#41cf2e' }} /></div>
-                  <h4 className="title"><a href="">Non custodian</a></h4>
-                  <p className="description">We do not hold your funds at any time <br/> You stay in control of your money</p>
-                </div>
+            </div>
+            <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+              <div className="box">
+                <div className="icon" style={{ background: '#eafde7' }}><i className="fas fa-user-shield" style={{ color:'#41cf2e' }} /></div>
+                <h4 className="title"><a href="">Non custodian</a></h4>
+                <p className="description">We do not hold your funds at any time <br/> You stay in control of your money</p>
               </div>
+            </div>
 
-              <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-                <div className="box">
-                  <div className="icon" style={{ background: '#e1eeff' }}><i className="fas fa-share-alt" style={{ color: '#2282ff' }} /></div>
-                  <h4 className="title"><a href="">BYO Wallet</a></h4>
-                  <p className="description">You can use you favorite web3-compatible wallet</p>
-                </div>
+            <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+              <div className="box">
+                <div className="icon" style={{ background: '#e1eeff' }}><i className="fas fa-share-alt" style={{ color: '#2282ff' }} /></div>
+                <h4 className="title"><a href="">BYO Wallet</a></h4>
+                <p className="description">You can use you favorite web3-compatible wallet</p>
               </div>
-              <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-                <div className="box">
-                  <div className="icon" style={{ background: '#ecebff' }}><i className="far fa-clock" style={{ color: '#8660fe' }} /></div>
-                  <h4 className="title"><a href="">Instant conversion</a></h4>
-                  <p className="description">Exchange and bank transfer is executed as soon as you transaction is confirmed</p>
-                </div>
+            </div>
+            <div className="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+              <div className="box">
+                <div className="icon" style={{ background: '#ecebff' }}><i className="far fa-clock" style={{ color: '#8660fe' }} /></div>
+                <h4 className="title"><a href="">Instant conversion</a></h4>
+                <p className="description">Exchange and bank transfer is executed as soon as you transaction is confirmed</p>
               </div>
-
             </div>
 
           </div>
+
+        </div>
       </section>
 
       <section id="call-to-action" className="wow fadeInUp">

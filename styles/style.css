@@ -180,7 +180,7 @@ h6 {
   display: none;
 }
 
-#header .logo div {
+#header div .logo  {
   display: flex;
 }
 

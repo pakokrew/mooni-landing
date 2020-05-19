@@ -29,10 +29,12 @@ export default () => (
 
       <div className="container">
 
-        <div className="logo float-left">
-          <h1 className="text-light"><a href="#intro" className="scrollto"><span>🌚 Mooni</span></a></h1>
-          {/*<a href="#header" className="scrollto"><img src="img/logo.png" alt="" className="img-fluid"/></a> */}
-        </div>
+        <a href="#intro" className="scrollto">
+          <div className="logo float-left">
+            <img src="img/logo512.png" alt="mooni-logo" className="img-fluid" />
+            <h1>Mooni</h1>
+          </div>
+        </a>
 
         <nav className="main-nav float-right d-none d-lg-block">
           <ul>

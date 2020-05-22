@@ -53,7 +53,7 @@ export default () => (
       <div className="container d-flex h-100">
         <div className="row justify-content-center align-self-center">
           <div className="col-md-6 intro-info order-md-first order-last">
-            <h2>The simplest <br/>crypto <span>off ramp</span></h2>
+            <h2>The easiest <br/>crypto <span>off ramp</span></h2>
             <div>
               <a href="https://app.mooni.tech" className="btn-info btn-get-started" target="_blank">Use it</a>
               <a href="https://doc.mooni.tech/frontend-integration" className="btn-info btn-integrate" target="_blank">Integrate it</a>
@@ -260,7 +260,7 @@ export default () => (
               <div className="row">
                 <div className="col-12 footer-info">
                   <h3>Mooni</h3>
-                  <p>The simplest crypto off ramp.</p>
+                  <p>The easiest crypto off ramp.</p>
                 </div>
 
                 <div className="col-12 footer-links">

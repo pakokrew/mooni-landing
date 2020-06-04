@@ -271,7 +271,7 @@ export default () => (
                     <a href="https://t.me/moonidapp" target="_blank" className="telegram"><i className="fab fa-telegram-plane"/></a>
                     <a href="https://github.com/pakokrew/mooni" target="_blank" className="github"><i className="fab fa-github"/></a>
                     <a href="https://medium.com/@pakokrew/introducing-mooni-97d97258756a" target="_blank" className="medium"><i className="fab fa-medium"/></a>
-                    <a href="mailto:usemooni@gmail.com" target="_blank" className="mail"><i className="fa fa-envelope"/></a>
+                    <a href="mailto:contact@mooni.tech" target="_blank" className="mail"><i className="fa fa-envelope"/></a>
                   </div>
                 </div>
 

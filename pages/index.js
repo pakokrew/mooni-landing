@@ -76,7 +76,7 @@ export default () => (
           <div className="row feature-item">
             <div className="col-lg-6 wow fadeInUp">
               <div style={{width:200}}>
-                <iframe src="https://streamable.com/e/0epyef" frameBorder="0" width="100%" height="100%"
+                <iframe src="https://streamable.com/e/m31h63" frameBorder="0" width="100%" height="100%"
                         allowFullScreen
                         style={{width:'100%',height:'100%',position:'absolute',left:0,top:0,overflow:'hidden'}}/>
               </div>

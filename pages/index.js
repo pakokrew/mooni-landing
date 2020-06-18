@@ -218,7 +218,7 @@ export default () => (
               <a data-toggle="collapse" href="#faq2" className="collapsed">How much can I transfer ? <i className="ion-android-remove"/></a>
               <div id="faq2" className="collapse" data-parent="#faq-list">
                 <p>
-                  Anonymous accounts are allowed up to 5,000 CHF per year.
+                  Exchanges are limited to 5,000 CHF/€ per transactions.
                 </p>
               </div>
             </li>
@@ -227,16 +227,16 @@ export default () => (
               <a data-toggle="collapse" href="#faq3" className="collapsed">How much does it cost ? <i className="ion-android-remove"/></a>
               <div id="faq3" className="collapse" data-parent="#faq-list">
                 <p>
-                  The fees we charge depend on the amount you exchange, but stays between 0.5% and 2%, plus blockchain network fees. The precise amount is displayed on the app when placing an order, try it ;)
+                  Our base fee is 2.5% per transaction. It may depend on the exchanged amount, the precise amount is displayed on the app when placing an order. You also have to pay for blockchain transaction fees which greatly depend on the situation of the network.
                 </p>
               </div>
             </li>
 
             <li>
-              <a data-toggle="collapse" href="#faq4" className="collapsed">How does it work ? <i className="ion-android-remove"/></a>
+              <a data-toggle="collapse" href="#faq4" className="collapsed">Is it financially regulated ? <i className="ion-android-remove"/></a>
               <div id="faq4" className="collapse" data-parent="#faq-list">
                 <p>
-                  We are not an exchange. We are just providing a sleek user interface glueing different services together. For ETH=>Fiat exchange, we use bity.com, which is a well-established Swiss crypto gateway, with strong regulations rules. For ERC20=>ETH conversion, we use decentralized liquity provider, which are trustless and permissionless.
+                  All the transactions are fully regulated over Swiss laws. Our partner, well-established Swiss crypto gateway, Bity.com, are doing all the AML verifications before accepting any order. We are able to provide KYC-less services due to the 5k€ limit.
                 </p>
               </div>
             </li>

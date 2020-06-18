@@ -82,12 +82,9 @@ export default () => (
               </div>
             </div>
             <div className="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-              <h4><b>Mooni</b> is a simple solution to cash out cryptocurrencies in fiat to a bank account, without KYC</h4>
+              <h4><b>Mooni</b> is a simple solution to transfer funds from your cryptocurrency wallet to your favorite bank account</h4>
               <p>
-                Connect your wallet, choose the currencies and the amount you want to transfer, put your bank account number (IBAN) and you're good to go.
-              </p>
-              <p>
-                Mooni does not requires to sign up, neither to verify identity. Users just need a crypto wallet and a bank account. Personal information can be stored in a private and encrypted storage, so that it can be remember for a latter use. Our service is also decentralized, that is to say that we don’t have any server and no data ever reaches us.
+                Mooni wants to improve the world of remote working by giving the option for the people that are being paid in crypto to <b>cash out</b> into their <b>bank account</b> so that they can enjoy off-chain and <b>real-world</b> activities with the salary they earn online.
               </p>
               <p>
                 Want to see how it works ? Check the <a href="https://doc.mooni.tech/walkthrough" target="_blank" rel="noopener noreferer">walkthrough</a> !
@@ -101,21 +98,22 @@ export default () => (
             </div>
 
             <div className="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-              <h4>Meant to be used in marketplaces</h4>
-              <p>
-                Many platforms today enable to generate revenue online, remotely. Anyone can earn crypto by prodiving
-                &nbsp;<a href="https://ethlance.com/" target="_blank">services</a>,
-                &nbsp;<a href="https://shoporigin.com/" target="_blank">selling goods</a>,
-                &nbsp;<a href="https://www.cryptocribs.com/" target="_blank">renting</a>,
-                &nbsp;<a href="https://idle.finance/" target="_blank">lending</a>,
-                &nbsp;<a href="https://app.nuo.network/trade" target="_blank">speculating</a> or
-                &nbsp;<a href="https://www.pooltogether.com/" target="_blank">gambling</a>.
+              <h4>For decentralised workers</h4>
+              <p className="break">
+                Many platforms today enable people to <b>generate revenue</b> in crypto online, from <b>anywhere in the world</b>, without <b>entry barriers</b>, such as: &nbsp;
+
+                <a href="https://gitcoin.co/" target="_blank">Gitcoin</a>,&nbsp;
+                <a href="https://ethlance.com/" target="_blank">Ethlance</a>,&nbsp;
+                <a href="https://shoporigin.com/" target="_blank">Origin</a>,&nbsp;
+                <a href="https://www.cryptocribs.com/" target="_blank">Cryptocribs</a>,&nbsp;
+                <a href="https://idle.finance/" target="_blank">Idle.finance</a>,&nbsp;
+                <a href="https://www.pooltogether.com/" target="_blank">Pool together</a>.
               </p>
               <p>
-                The universe of the things we can buy with crypto is expanding, but today, it is still hard to spend a living with it. Things like homing, food, or health insurance still requires to have a bank account and fiat.
+                The universe of the things we can buy with crypto is expanding, but today, it is still hard to <b>spend a living</b> with it. Things like <b>groceries</b>, <b>rents</b> or <b>health insurance</b> still requires to have a bank account and fiat.
               </p>
               <p>
-                With Mooni, anyone that generate revenue online in crypto can transfer their money from their crypto wallet to their bank account, and become a decentralized worker.
+                With Mooni, anyone can work for crypto, cash out into their favorite bank account, and spend at stores. Is there any more reason people would not like to start using decentralised marketplaces ?
               </p>
             </div>
 
@@ -160,7 +158,7 @@ export default () => (
               <div className="box">
                 <div className="icon" style={{ background: '#eafde7' }}><i className="fas fa-user-shield" style={{ color:'#41cf2e' }} /></div>
                 <h4 className="title"><a href="">Non custodian</a></h4>
-                <p className="description">We do not hold your funds at any time <br/> You stay in control of your money</p>
+                <p className="description">We do not hold your funds at any time. You stay in control of your money</p>
               </div>
             </div>
 
@@ -175,7 +173,7 @@ export default () => (
               <div className="box">
                 <div className="icon" style={{ background: '#ecebff' }}><i className="far fa-clock" style={{ color: '#8660fe' }} /></div>
                 <h4 className="title"><a href="">Instant conversion</a></h4>
-                <p className="description">Exchange and bank transfer is executed as soon as you transaction is confirmed</p>
+                <p className="description">Exchange and bank transfer is executed as soon as the transaction is confirmed</p>
               </div>
             </div>
 
@@ -189,7 +187,7 @@ export default () => (
           <div className="row">
             <div className="col-lg-9 text-center text-lg-left">
               <img src="img/grants-logo.svg" className="cta-img" alt=""/>
-              <p className="cta-text">We're hosting a grant on Gitcoin, where anyone can participate to the funding of this project. During <a href="https://gitcoin.co/blog/gitcoin-grants-round-4/" target="_blank">CLR rounds</a>, donations are quadraticly matched !</p>
+              <p className="cta-text">We're hosting a grant on Gitcoin, where anyone can participate to the funding of this project. During <a href="https://gitcoin.co/blog/gitcoin-grants-round-6/" target="_blank">CLR rounds</a>, donations are quadraticly matched !</p>
             </div>
             <div className="col-lg-3 cta-btn-container text-center">
               <a className="cta-btn align-middle" href="https://gitcoin.co/grants/225/mooni" target="_blank">Donate</a>

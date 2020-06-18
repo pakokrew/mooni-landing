@@ -756,6 +756,13 @@ h6 {
   font-weight: 600;
   font-size: 24px;
 }
+#about p {
+  margin: 0 0 16px 0;
+}
+
+#about p.break > a{
+  display: inline-block;
+}
 
 /* Portfolio Section
 --------------------------------*/

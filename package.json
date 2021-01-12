@@ -1,7 +1,7 @@
 {
-  "name": "ako-landing",
+  "name": "@mooni/landing",
   "version": "1.0.0",
-  "description": "AKO landing page",
+  "description": "Mooni landing page",
   "main": "index.html",
   "scripts": {
     "dev": "next",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/akoding/ako-landing.git"
+    "url": "git+https://github.com/pakokrew/mooni-landing.git"
   },
   "author": "Pac (pakokrew@gmail.com)",
   "license": "MIT",
-  "homepage": "https://meetako.fr",
+  "homepage": "https://mooni.tech",
   "dependencies": {
     "next": "^9.3.4",
     "react": "^16.13.1",

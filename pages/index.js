@@ -218,7 +218,7 @@ export default () => (
               <a data-toggle="collapse" href="#faq2" className="collapsed">How much can I transfer ? <i className="ion-android-remove"/></a>
               <div id="faq2" className="collapse" data-parent="#faq-list">
                 <p>
-                  Exchanges are limited to 5,000 CHF/€ per transactions.
+                  Exchanges are limited to 1000 CHF/€ per transactions.
                 </p>
               </div>
             </li>
@@ -236,7 +236,7 @@ export default () => (
               <a data-toggle="collapse" href="#faq4" className="collapsed">Is it financially regulated ? <i className="ion-android-remove"/></a>
               <div id="faq4" className="collapse" data-parent="#faq-list">
                 <p>
-                  All the transactions are fully regulated over Swiss laws. Our partner, well-established Swiss crypto gateway, Bity.com, are doing all the AML verifications before accepting any order. We are able to provide KYC-less services due to the 5k€ limit.
+                  All the transactions are fully regulated over Swiss laws. Our partner, well-established Swiss crypto gateway, Bity.com, are doing all the AML verifications before accepting any order.
                 </p>
               </div>
             </li>

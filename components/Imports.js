@@ -21,25 +21,12 @@ export default () => (
       <link href="lib/font-awesome/css/all.min.css" rel="stylesheet"/>
       <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68373171-8"/>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-    
-            gtag('config', 'UA-68373171-8');
-            gtag('event', 'landing');
-          `,
-        }}
-      />
       <script
         async
         defer
         data-domain="mooni.tech"
-        src="https://plausible.opac.me/js/plausible.js"
-        integrity="sha384-DL27k4/wLmRE17a6r2DkuF5OOlTuEIxgmyMdKmXrpoBwYWxEnv2FvtyVezG5kxH9"
+        src="https://plausible.mooni.tech/js/plausible.js"
+        integrity="sha384-A95mlioU57RAFEh+gc9a71Kc08jTjT+ESRKYiJtPoN5ZRsMiDDCWdHQWGk1Q4YGP"
         crossorigin="anonymous"
       />
     </Head>

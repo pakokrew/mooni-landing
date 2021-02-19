@@ -34,7 +34,14 @@ export default () => (
           `,
         }}
       />
-      <script async defer data-domain="mooni.tech" src="https://plausible.opac.me/js/plausible.js"/>
+      <script
+        async
+        defer
+        data-domain="mooni.tech"
+        src="https://plausible.opac.me/js/plausible.js"
+        integrity="sha384-DL27k4/wLmRE17a6r2DkuF5OOlTuEIxgmyMdKmXrpoBwYWxEnv2FvtyVezG5kxH9"
+        crossorigin="anonymous"
+      />
     </Head>
 
     <script src="lib/jquery/jquery.min.js"></script>

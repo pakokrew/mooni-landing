@@ -21,7 +21,7 @@ export default () => (
       <link href="lib/font-awesome/css/all.min.css" rel="stylesheet"/>
       <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68373171-8"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68373171-8"/>
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -34,6 +34,7 @@ export default () => (
           `,
         }}
       />
+      <script async defer data-domain="mooni.tech" src="https://plausible.io/js/plausible.js"/>
     </Head>
 
     <script src="lib/jquery/jquery.min.js"></script>
